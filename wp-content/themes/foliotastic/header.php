@@ -46,7 +46,7 @@ if (!$searchbox_color) { $searchbox_color = "DFDFDF"; } ?>
 <!--[if IE 7]><link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/ie_fixes.php<? if ($custom_color) { ?>?color=<? echo $custom_color; } ?><? if ($theme_style) { ?>&style=<? echo $theme_style; } ?>&ie=7" media="screen" type="text/css" /><![endif]-->
 <!--[if IE 6]><link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/ie_fixes.php<? if ($custom_color) { ?>?color=<? echo $custom_color; } ?><? if ($theme_style) { ?>&style=<? echo $theme_style; } ?>&ie=6" media="screen" type="text/css" /><![endif]-->
 
-<!-- Load the 960 Grid System & PrettyPhoto Lightbox stylesheet-->
+<!-- Load the 960 Grid System & PrettyPhoto Lightbox stylesheet -->
 <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/960.css" media="screen" type="text/css" />
 <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/prettyPhoto.css" type="text/css" media="screen" charset="utf-8" />
 <link rel="shortcut icon" href="favicon.ico" />
