@@ -9,6 +9,10 @@
     
     <div id="navigation-top">
         <div class="container_12">
+			<div class="feature-header">
+				Sydney Experience ride
+			</div>
+			
             <div class="navigation-top grid_12">
                 <ul class="navigation-top-ul">
                     <li<? if (is_home()) { ?> class="current_page"<? } ?>><a href="<? bloginfo('home') ?>">Home</a></li>
