@@ -22,9 +22,9 @@ p.twitter-message, .page-button a, #search .button-go { text-shadow:none; }
     background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#dfdfdf), to(#cccccc));
 }
 #footer {
-	text-shadow:1px 1px 0 #ffffff;
-	background-image: -moz-linear-gradient(100% 100% 90deg, #fafafa, #f0f0f0);
-    background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#fafafa), to(#f0f0f0));
+	text-shadow:1px 1px 0 #000;
+	/*background-image: -moz-linear-gradient(100% 100% 90deg, #fafafa, #f0f0f0);
+    background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#fafafa), to(#f0f0f0));*/
 }
 <? } ?>
 
@@ -42,7 +42,7 @@ a.next,a.previous,.page-button a,.navigation-top li ul,
 div.entry h1, div.entry h3, div.entry h6, .custom-color, a, a.twitter-postlink,
 blockquote, .page-button a, .twitter-message a, a.twitter-user { color:#<? echo $highlight_color ?> !important }
 .windows { border-top:5px solid #<? echo $highlight_color ?> }
-.navigation-top a:hover, .navigation-top li.current_page a { border-bottom:5px solid #<? echo $highlight_color ?> }
+/*.navigation-top a:hover, .navigation-top li.current_page a { border-bottom:5px solid #<? echo $highlight_color ?> }*/
 .twitter-arrow { border-top:10px solid #<? echo $background_color ?> }
 ul ul a.sf-with-ul .sf-sub-indicator { border-color:#<? echo $highlight_color ?> #<? echo $highlight_color ?> #<? echo $highlight_color ?> #<? echo $background_color ?> }
 
@@ -63,7 +63,7 @@ p.twitter-message a, p.twitter-message a:hover { color:#<? echo $text_color ?> }
 /* COLORS - Other Grey Colors */
 .post-block { border-bottom:1px solid #<? echo $searchbox_color ?> }
 .wp-caption { border: 1px solid #<? echo $searchbox_color ?>; background-color: #<? echo $midrange_color ?>; }
-h2, #navigation-top, #footer, ul.sidebar-subpages > a { background-color:#<? echo $midrange_color ?> !important }
+h2, #navigation-top, ul.sidebar-subpages > a { background-color:#<? echo $midrange_color ?> !important }
 #search .textbox { background-color:#<? echo $searchbox_color ?> !important }
 .single-title-image h2, a.twitter-postlink:hover, .single-title-image a:hover { color:#<? echo $text_color ?> !important }
 .twitter-timestamp { color:#<? echo $text_color ?> }

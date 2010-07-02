@@ -1,6 +1,7 @@
 	<div id="footer">
       <div class="container_12">
             <div class="navigation-footer grid_12">
+	Footer
             	<?php echo stripslashes(get_theme_var('footerLeft')); ?>
                 <div class="copyright"><?php echo stripslashes(get_theme_var('footerRight')); ?></div>
             </div>
@@ -9,8 +10,12 @@
     
     <div id="navigation-top">
         <div class="container_12">
-			<div class="feature-header">
-				Sydney Experience ride
+			<div id="leaderboard">
+			728x90
+			</div>
+			<div id="logo">agf logo</div>
+			<div id="featureHeader">
+				<p>Share the Road Tour <span>Sydney 2010</span></p>
 			</div>
 			
             <div class="navigation-top grid_12">
